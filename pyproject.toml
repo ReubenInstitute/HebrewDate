@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "HebrewDate"
+version = "1.0"
+description = "Hebrew calendar: dates, holidays, and Torah reading schedule"
+readme = { text = "Hebrew calendar: dates, holidays, and Torah reading schedule.", content-type = "text/plain" }
+requires-python = ">=3.8"
+dependencies = [
+    "Date",
+]
+
+[tool.setuptools]
+py-modules = ["HebrewDate", "HebrewHoliday", "TorahSchedule"]
