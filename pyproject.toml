@@ -7,6 +7,7 @@ name = "HebrewDate"
 version = "3.3"
 description = "Hebrew calendar utilities from Reuben Institute — dates, holidays, and Torah reading schedule"
 readme = { text = "Hebrew calendar utilities from Reuben Institute — dates, holidays, and Torah reading schedule.", content-type = "text/plain" }
+license = { text = "GPL-3.0-or-later" }
 requires-python = ">=3.8"
 dependencies = [
     "Date",
