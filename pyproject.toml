@@ -4,9 +4,9 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "HebrewDate"
-version = "1.0"
-description = "Hebrew calendar: dates, holidays, and Torah reading schedule"
-readme = { text = "Hebrew calendar: dates, holidays, and Torah reading schedule.", content-type = "text/plain" }
+version = "3.3"
+description = "Hebrew calendar utilities from Reuben Institute — dates, holidays, and Torah reading schedule"
+readme = { text = "Hebrew calendar utilities from Reuben Institute — dates, holidays, and Torah reading schedule.", content-type = "text/plain" }
 requires-python = ">=3.8"
 dependencies = [
     "Date",
