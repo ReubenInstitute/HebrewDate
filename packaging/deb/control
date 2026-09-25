@@ -1,5 +1,5 @@
 Package: python3-hebrewdate
-Version: 3.3
+Version: 3.7
 Section: python
 Priority: optional
 Architecture: all
