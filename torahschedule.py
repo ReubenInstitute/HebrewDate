@@ -1,6 +1,6 @@
 from enum import IntEnum
-from Date import Weekday
-from HebrewDate import HebrewDate, HebrewMonth
+from date import Weekday
+from hebrewdate import HebrewDate, HebrewMonth
 
 
 class Parashah(IntEnum):
@@ -242,8 +242,8 @@ class HolidayReadingNames:
 
 
 
-from Date import Weekday
-from HebrewDate import HebrewDate, HebrewMonth
+from date import Weekday
+from hebrewdate import HebrewDate, HebrewMonth
 
 
 class TorahSchedule:
@@ -442,8 +442,8 @@ class TorahSchedule:
 if __name__ == "__main__":
 	import time as _systime
 	import argparse
-	from Date import Date
-	from HebrewDate import HebrewDate, HebrewMonth, HebrewMonthNames
+	from date import Date
+	from hebrewdate import HebrewDate, HebrewMonth, HebrewMonthNames
 
 	parser = argparse.ArgumentParser(description='Display Torah readings for a Hebrew year')
 	parser.add_argument('-y', '--year', type=int, help='Civil year to use (defaults to current year)')

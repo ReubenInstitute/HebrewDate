@@ -1,7 +1,7 @@
 from enum import IntEnum
 
-from Date import Weekday
-from HebrewDate import HebrewDate, HebrewMonth
+from date import Weekday
+from hebrewdate import HebrewDate, HebrewMonth
 
 
 class HebrewHolidayId(IntEnum):
@@ -405,7 +405,7 @@ class HolidayNames:
 
 if __name__ == "__main__":
 	import time as _systime
-	from Date import Date
+	from date import Date
 
 	now = _systime.localtime()
 	today = Date(now.tm_year, now.tm_mon, now.tm_mday)

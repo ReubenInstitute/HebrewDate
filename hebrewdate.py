@@ -1,6 +1,5 @@
-# HebrewDate.py
 from enum import IntEnum
-from Date import Date, Weekday, WeekdayNames
+from date import Date, Weekday, WeekdayNames
 
 
 class HebrewMonth(IntEnum):
@@ -510,7 +509,7 @@ class ShabbatChodeshTypeNames:
 
 if __name__ == "__main__":
 	import time as _systime
-	from Date import Date
+	from date import Date
 
 	now = _systime.localtime()
 	today = Date(now.tm_year, now.tm_mon, now.tm_mday)
