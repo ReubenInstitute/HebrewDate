@@ -1,7 +1,7 @@
 from enum import IntEnum
-from date import Weekday
-from hebrewdate import HebrewDate, HebrewMonth
 
+from Date import Weekday
+from HebrewDate import HebrewDate, HebrewMonth
 
 class Parashah(IntEnum):
 	BERESHIT = 1
@@ -241,9 +241,6 @@ class HolidayReadingNames:
 		return ""
 
 
-
-from date import Weekday
-from hebrewdate import HebrewDate, HebrewMonth
 
 
 class TorahSchedule:

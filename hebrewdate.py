@@ -1,5 +1,5 @@
 from enum import IntEnum
-from date import Date, Weekday, WeekdayNames
+from Date import Date, Weekday, WeekdayNames
 
 
 class HebrewMonth(IntEnum):
